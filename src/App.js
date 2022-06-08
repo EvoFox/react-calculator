@@ -1,7 +1,17 @@
+import { useState } from "react";
 import "./App.css";
+import Numbers from "./components/Numbers";
+import Operators from "./components/Operators";
 
-function App() {
-	return <div className="App"></div>;
-}
+const App = () => {
+	const [input, setInput] = useState("");
+	return (
+		<div className="App">
+			<h1>My Calculator</h1>
+			<Operators />
+			<Numbers />
+		</div>
+	);
+};
 
 export default App;

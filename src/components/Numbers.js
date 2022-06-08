@@ -1,4 +1,4 @@
-const Numbers = () => {
+const Numbers = ({handleClick}) => {
 	const buttons = [
 		"9",
 		"8",
@@ -17,7 +17,7 @@ const Numbers = () => {
 	return (
 		<div>
 			{buttons.map((button) => (
-				<button key={button}>{button}</button>
+				<button key={button} onClick={handleClick}>{button}</button>
 			))}
 		</div>
 	);

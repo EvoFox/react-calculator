@@ -1,3 +1,13 @@
+# Simple React Calculator
+
+This project was undertaken during my Code Nation Master bootcamp course, I was tasked with creating a simple calculator app and implemented jest testing into it.
+
+## Intentions of this project
+
+This project was intended as an introduction to implementing unit testing and integration testing with `fireEvent.click()` in react applications.
+
+## The current version of this application is hoster [here](https://evo-calculator.netlify.app)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

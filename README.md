@@ -6,7 +6,7 @@ This project was undertaken during my Code Nation Master bootcamp course, I was 
 
 This project was intended as an introduction to implementing unit testing and integration testing with `fireEvent.click()` in react applications.
 
-## The current version of this application is hoster [here](https://evo-calculator.netlify.app)
+## The current version of this application is hosted [here](https://evo-calculator.netlify.app)
 
 # Getting Started with Create React App
 

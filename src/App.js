@@ -32,7 +32,7 @@ const App = () => {
 
 			<div className="calculator-wrapper">
 				<span className="display-wrapper">
-					<h2 className="display">{input}</h2>
+					<h2 className="display" data-testid="display">{input}</h2>
 				</span>
 				<br />
 				<span className="button-wrapper">
